@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- ILUSTRACIÓN DE EJEMPLO: reemplázala por una foto de una sesión Enséñame -->
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9e7e6"/><stop offset="1" stop-color="#ebe4f5"/></linearGradient></defs>
+  <rect width="600" height="400" fill="url(#g)"/>
+  <!-- espejo -->
+  <ellipse cx="300" cy="190" rx="130" ry="150" fill="#fff" opacity=".7" stroke="#e6b7bd" stroke-width="4"/>
+  <!-- rostro -->
+  <ellipse cx="300" cy="185" rx="62" ry="80" fill="#f1d0b8"/>
+  <path d="M238 170c0-70 124-70 124 0 0-55-30-90-62-90s-62 35-62 90z" fill="#7a5a52"/>
+  <path d="M238 175c-10 60 0 120-20 150h40c-15-40-10-100-20-150z" fill="#7a5a52"/>
+  <path d="M362 175c10 60 0 120 20 150h-40c15-40 10-100 20-150z" fill="#7a5a52"/>
+  <ellipse cx="272" cy="215" rx="16" ry="9" fill="#ec9fa3" opacity=".55"/>
+  <ellipse cx="328" cy="215" rx="16" ry="9" fill="#ec9fa3" opacity=".55"/>
+  <path d="M272 185q8-6 16 0M312 185q8-6 16 0" stroke="#5a474c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M286 238q14 10 28 0" stroke="#d07f8a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- guías de análisis de rostro -->
+  <g stroke="#c98f99" stroke-width="1.5" stroke-dasharray="5 6" fill="none" opacity=".8">
+    <ellipse cx="300" cy="185" rx="72" ry="92"/><path d="M300 80v215M215 200h170"/>
+  </g>
+  <!-- brocha -->
+  <g transform="rotate(35 450 270)"><rect x="440" y="230" width="16" height="120" rx="8" fill="#d9c2a6"/><rect x="438" y="215" width="20" height="22" rx="3" fill="#c8b8d8"/><path d="M438 216c-4-30 4-50 10-55 6 5 14 25 10 55z" fill="#e6b7bd"/></g>
+  <!-- hojas -->
+  <g fill="#b9c9b0" opacity=".8"><path d="M40 380c5-70 55-110 120-110-5 65-55 105-120 110z"/><path d="M570 60c-50 0-80 40-75 85 50-5 80-40 75-85z"/></g>
+  <text x="70" y="70" font-family="Georgia,serif" font-style="italic" font-size="28" fill="#c98f99">Enséñame</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- IMAGEN DE EJEMPLO: reemplázala por la foto real del producto (400x300 aprox.) -->
+  <circle cx="200" cy="150" r="105" fill="#fff" opacity=".5"/>
+  <g fill="#b9c9b0" opacity=".75"><path d="M40 250c10-60 50-90 100-95-5 55-45 90-100 95z"/><path d="M360 60c-40 10-60 45-55 85 40-5 62-42 55-85z" opacity=".7"/></g><g fill="none" stroke="#9fb594" stroke-width="2" opacity=".7"><path d="M40 250 120 175"/><path d="M305 145 350 80"/></g>
+  <ellipse cx="200" cy="250" rx="90" ry="12" fill="#c98f99" opacity=".15"/>
+  <g transform="rotate(-30 200 160)"><rect x="110" y="140" width="130" height="40" rx="20" fill="#e9d9e6" stroke="#d3bfd0" stroke-width="2"/><rect x="235" y="146" width="80" height="28" rx="8" fill="#a98a9a"/><text x="175" y="166" text-anchor="middle" font-family="Georgia,serif" font-size="16" fill="#a98a9a">Lume</text></g>
+</svg>

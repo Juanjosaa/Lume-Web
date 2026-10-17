@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- IMAGEN DE EJEMPLO: reemplázala por la foto real del producto (400x300 aprox.) -->
+  <circle cx="200" cy="150" r="105" fill="#fff" opacity=".5"/>
+  <g fill="#b9c9b0" opacity=".75"><path d="M40 250c10-60 50-90 100-95-5 55-45 90-100 95z"/><path d="M360 60c-40 10-60 45-55 85 40-5 62-42 55-85z" opacity=".7"/></g><g fill="none" stroke="#9fb594" stroke-width="2" opacity=".7"><path d="M40 250 120 175"/><path d="M305 145 350 80"/></g>
+  <ellipse cx="200" cy="250" rx="90" ry="12" fill="#c98f99" opacity=".15"/>
+  <rect x="100" y="110" width="200" height="130" rx="18" fill="#fffaf6" stroke="#e1d6ee" stroke-width="2"/><g><circle cx="145" cy="150" r="22" fill="#f4cbbf"/><circle cx="200" cy="150" r="22" fill="#e8a9a2"/><circle cx="255" cy="150" r="22" fill="#c9a6c8"/><circle cx="145" cy="203" r="22" fill="#f6dfc5"/><circle cx="200" cy="203" r="22" fill="#d9a07f"/><circle cx="255" cy="203" r="22" fill="#a98a9a"/></g>
+</svg>

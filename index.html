@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lume · Maquillaje consciente en Cali</title>
+  <meta name="description" content="Lume: maquillaje ecológico con ingredientes naturales y empaques responsables. Tienda en Cali y online, con la experiencia Enséñame.">
+
+  <!-- Tipografías: Cormorant Garamond (títulos) + DM Sans (textos) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Activa las animaciones de scroll solo si JavaScript está disponible -->
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <!-- =========================================================
+       1. HEADER FIJO
+       ========================================================= -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Lume, ir al inicio">
+        Lume<span class="logo__dot">.</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menú principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+          <li><a href="#productos" class="nav__link">Productos</a></li>
+          <li><a href="#ensename" class="nav__link">Experiencia Enséñame</a></li>
+          <li><a href="#compromiso" class="nav__link">Compromiso ecológico</a></li>
+          <li><a href="#contacto" class="nav__link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav__toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- =========================================================
+         2. HERO
+         ========================================================= -->
+    <section class="hero" id="inicio">
+      <!-- Formas orgánicas decorativas de fondo -->
+      <div class="blob blob--rose" aria-hidden="true"></div>
+      <div class="blob blob--lavender" aria-hidden="true"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow reveal">Maquillaje ecológico · Hecho para Cali</p>
+          <h1 class="hero__title reveal">Brilla tú,<br><em>cuida la Tierra.</em></h1>
+          <p class="hero__lead reveal">
+            Maquillaje con ingredientes naturales y empaques recargables, pensado para la piel
+            caleña y para el planeta que compartimos. Belleza que se siente ligera, por dentro y por fuera.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#productos" class="btn btn--primary">Ver productos</a>
+            <a href="#ensename" class="btn btn--outline">Reserva tu Enséñame</a>
+          </div>
+          <ul class="hero__badges reveal">
+            <li>🌿 Vegano</li>
+            <li>🐰 Cruelty free</li>
+            <li>♻️ Recargable</li>
+          </ul>
+        </div>
+
+        <div class="hero__media reveal">
+          <!-- REEMPLAZABLE: cambia img/hero.svg por una foto real (ej. img/hero.jpg) -->
+          <div class="hero__frame">
+            <img src="img/hero.svg" alt="Productos de maquillaje Lume rodeados de hojas" width="520" height="600">
+          </div>
+          <div class="hero__card">
+            <strong>+1.200</strong>
+            <span>empaques reutilizados en Cali</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. NOSOTROS
+         ========================================================= -->
+    <section class="section" id="nosotros">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Nosotros</p>
+          <h2 class="section__title">Nacimos en Cali en julio de 2026</h2>
+        </div>
+
+        <div class="about">
+          <div class="about__story reveal">
+            <p>
+              Lume es una empresa caleña de maquillaje ecológico fundada en julio de 2026. Nacimos para
+              responder a una necesidad clara del mercado: productos de belleza de calidad, con ingredientes
+              naturales y empaques responsables, a un precio accesible. Operamos de forma local, con nuestro
+              punto físico en Cali, y de forma virtual, para llegar a más clientas en todo el país.
+            </p>
+            <p>
+              Creemos que el maquillaje no es para esconderte, sino para que te reconozcas.
+              Por eso, además de crear productos responsables, te <strong>enseñamos</strong> a usarlos.
+            </p>
+          </div>
+
+          <div class="about__cards">
+            <article class="mv-card reveal">
+              <h3>Misión</h3>
+              <p>Ofrecer maquillaje natural y de empaques responsables, acompañado de educación
+                personalizada para que cada mujer en Cali se sienta segura y luminosa con su propia piel.</p>
+            </article>
+            <article class="mv-card reveal">
+              <h3>Visión</h3>
+              <p>Ser en 2030 la marca de maquillaje consciente referente del Valle del Cauca,
+                reconocida por su cercanía, su impacto ambiental positivo y su experiencia educativa.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="values">
+          <article class="value reveal">
+            <span class="value__icon" aria-hidden="true">🌱</span>
+            <h4>Sostenibilidad</h4>
+            <p>Cada decisión pasa por una pregunta: ¿esto cuida el planeta?</p>
+          </article>
+          <article class="value reveal">
+            <span class="value__icon" aria-hidden="true">✨</span>
+            <h4>Autenticidad</h4>
+            <p>Resaltamos tu belleza real, sin filtros ni estándares imposibles.</p>
+          </article>
+          <article class="value reveal">
+            <span class="value__icon" aria-hidden="true">📖</span>
+            <h4>Aprendizaje</h4>
+            <p>Te enseñamos a conocer tu rostro y a elegir con conciencia.</p>
+          </article>
+          <article class="value reveal">
+            <span class="value__icon" aria-hidden="true">🤍</span>
+            <h4>Cercanía</h4>
+            <p>Somos de aquí: te atendemos como a una amiga, en tienda y en línea.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. PRODUCTOS
+         Para agregar un producto: copia un <article class="product">
+         y cambia imagen, nombre, descripción, beneficio y precio.
+         ========================================================= -->
+    <section class="section section--tint" id="productos">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Productos</p>
+          <h2 class="section__title">Nuestra línea luminosa</h2>
+          <p class="section__lead">Fórmulas suaves, colores que se funden con tu piel y empaques que vuelven a nosotras.</p>
+        </div>
+
+        <div class="products">
+          <article class="product reveal">
+            <div class="product__img" style="--bg: var(--blush)">
+              <img src="img/rubor.svg" alt="Rubor en crema Lume" loading="lazy">
+            </div>
+            <div class="product__body">
+              <h3 class="product__name">Rubor en crema Pétalo</h3>
+              <p class="product__desc">Color natural y jugoso que se difumina con los dedos. Ideal para mejillas y labios.</p>
+              <p class="product__eco">🌿 Pigmentos de remolacha y aceite de jojoba</p>
+              <div class="product__foot">
+                <span class="product__price">$58.000</span>
+                <a href="#contacto" class="btn btn--small" data-product="Rubor en crema Pétalo">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="product__img" style="--bg: var(--peach)">
+              <img src="img/base.svg" alt="Base líquida Lume" loading="lazy">
+            </div>
+            <div class="product__body">
+              <h3 class="product__name">Base Segunda Piel</h3>
+              <p class="product__desc">Cobertura ligera y acabado natural que resiste el calor caleño. 12 tonos.</p>
+              <p class="product__eco">♻️ Frasco de vidrio con recarga</p>
+              <div class="product__foot">
+                <span class="product__price">$89.000</span>
+                <a href="#contacto" class="btn btn--small" data-product="Base Segunda Piel">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="product__img" style="--bg: var(--rose-soft)">
+              <img src="img/labial.svg" alt="Labial Lume" loading="lazy">
+            </div>
+            <div class="product__body">
+              <h3 class="product__name">Labial Nutritivo Flor</h3>
+              <p class="product__desc">Color satinado que hidrata durante horas, con manteca de karité y cacao.</p>
+              <p class="product__eco">🌿 Estuche de bambú recargable</p>
+              <div class="product__foot">
+                <span class="product__price">$52.000</span>
+                <a href="#contacto" class="btn btn--small" data-product="Labial Nutritivo Flor">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="product__img" style="--bg: var(--lavender)">
+              <img src="img/sombras.svg" alt="Paleta de sombras Lume" loading="lazy">
+            </div>
+            <div class="product__body">
+              <h3 class="product__name">Paleta de sombras Atardecer</h3>
+              <p class="product__desc">Seis tonos inspirados en los atardeceres del Pacífico, mate y satinados.</p>
+              <p class="product__eco">♻️ Paleta de cartón reciclado con godets recargables</p>
+              <div class="product__foot">
+                <span class="product__price">$95.000</span>
+                <a href="#contacto" class="btn btn--small" data-product="Paleta de sombras Atardecer">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="product__img" style="--bg: var(--cream)">
+              <img src="img/iluminador.svg" alt="Iluminador Lume" loading="lazy">
+            </div>
+            <div class="product__body">
+              <h3 class="product__name">Iluminador Luz de Cali</h3>
+              <p class="product__desc">Brillo dorado y sutil, sin glitter plástico. Luce como piel recién hidratada.</p>
+              <p class="product__eco">🌿 Mica mineral de origen ético</p>
+              <div class="product__foot">
+                <span class="product__price">$64.000</span>
+                <a href="#contacto" class="btn btn--small" data-product="Iluminador Luz de Cali">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="product reveal">
+            <div class="product__img" style="--bg: var(--blush)">
+              <img src="img/mascara.svg" alt="Máscara de pestañas Lume" loading="lazy">
+            </div>
+            <div class="product__body">
+              <h3 class="product__name">Máscara Pestañas Libres</h3>
+              <p class="product__desc">Volumen y definición sin grumos, con cera de candelilla. Se retira con agua tibia.</p>
+              <p class="product__eco">♻️ Tubo de aluminio 100% reciclable</p>
+              <div class="product__foot">
+                <span class="product__price">$56.000</span>
+                <a href="#contacto" class="btn btn--small" data-product="Máscara Pestañas Libres">Lo quiero</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. EXPERIENCIA ENSÉÑAME
+         ========================================================= -->
+    <section class="section" id="ensename">
+      <div class="container">
+        <div class="ensename">
+          <div class="ensename__intro reveal">
+            <p class="eyebrow">Experiencia Enséñame</p>
+            <h2 class="section__title">No solo te llevas un producto, <em>te llevas el saber</em></h2>
+            <p class="section__lead">
+              En nuestra tienda en Cali, una maquilladora Lume te acompaña en una sesión personalizada
+              para que aprendas a aplicar lo que compraste según la forma y características de tu rostro.
+              Sin costo adicional con tu compra.
+            </p>
+            <!-- REEMPLAZABLE: foto de una sesión Enséñame -->
+            <img class="ensename__img" src="img/ensename.svg" alt="Maquilladora enseñando a una clienta" loading="lazy">
+          </div>
+
+          <ol class="steps">
+            <li class="step reveal">
+              <span class="step__num">1</span>
+              <div>
+                <h3>Compras tu producto</h3>
+                <p>Elige tus favoritos en tienda o en línea y recógelos en nuestro punto en Cali.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">2</span>
+              <div>
+                <h3>Analizamos tu rostro</h3>
+                <p>Observamos la forma de tu cara, tu tipo de piel, subtono y lo que quieres resaltar.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">3</span>
+              <div>
+                <h3>Aprendes a aplicarlo</h3>
+                <p>Practicas tú misma, paso a paso, mientras te guiamos con técnicas sencillas.</p>
+              </div>
+            </li>
+            <li class="step reveal">
+              <span class="step__num">4</span>
+              <div>
+                <h3>Te llevas tu rutina personalizada</h3>
+                <p>Recibes una ficha con tu rutina ideal para el día a día y para ocasiones especiales.</p>
+              </div>
+            </li>
+            <li class="steps__cta reveal">
+              <a href="https://wa.me/573001234567?text=Hola%20Lume%2C%20quiero%20agendar%20mi%20sesi%C3%B3n%20Ens%C3%A9%C3%B1ame" class="btn btn--primary" target="_blank" rel="noopener">
+                Agenda tu Enséñame
+              </a>
+              <span>Sesiones de 45 minutos · Lunes a sábado</span>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. COMPROMISO ECOLÓGICO
+         ========================================================= -->
+    <section class="section section--lavender" id="compromiso">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Compromiso ecológico</p>
+          <h2 class="section__title">Belleza que deja huella, <em>pero no en el planeta</em></h2>
+        </div>
+
+        <div class="eco">
+          <article class="eco__item reveal">
+            <div class="eco__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M10 38C10 20 22 10 40 8c0 18-10 30-28 30" /><path d="M10 38 26 22" /></svg>
+            </div>
+            <h3>Ingredientes naturales</h3>
+            <p>Aceites vegetales, minerales y pigmentos de origen botánico. Sin parabenos, siliconas ni microplásticos.</p>
+          </article>
+          <article class="eco__item reveal">
+            <div class="eco__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M16 12h16l-2 6" /><path d="M36 18 40 30l-6 0" /><path d="M24 40H12l-4-8 4-6" /><path d="M14 22l-6 4" /><path d="M34 30l-6 10" /></svg>
+            </div>
+            <h3>Empaques recargables</h3>
+            <p>Vidrio, aluminio y bambú. Trae tu empaque vacío a la tienda y obtén un 15% de descuento en tu recarga.</p>
+          </article>
+          <article class="eco__item reveal">
+            <div class="eco__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><path d="M24 40c-8 0-12-6-12-12 0-5 4-9 12-9s12 4 12 9c0 6-4 12-12 12Z" /><path d="M18 19c-2-6-2-11 1-12 3 0 4 6 4 12" /><path d="M30 19c2-6 2-11-1-12-3 0-4 6-4 12" /></svg>
+            </div>
+            <h3>No testeado en animales</h3>
+            <p>100% cruelty free y vegano. Ningún producto ni ingrediente se prueba en animales, nunca.</p>
+          </article>
+          <article class="eco__item reveal">
+            <div class="eco__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="8" /><path d="M24 6v6M24 36v6M6 24h6M36 24h6M11 11l4 4M33 33l4 4M11 37l4-4M33 15l4-4" /></svg>
+            </div>
+            <h3>Producción responsable</h3>
+            <p>Lotes pequeños elaborados en Cali, con proveedores locales y comercio justo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. TESTIMONIOS (clientas ficticias)
+         ========================================================= -->
+    <section class="section" id="testimonios">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Testimonios</p>
+          <h2 class="section__title">Lo que dicen nuestros clientes</h2>
+        </div>
+
+        <div class="testimonials">
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Nunca había sabido aplicarme el rubor. En el Enséñame me explicaron cómo según mi cara redonda y ahora lo hago en dos minutos. ¡Me encanta!”</blockquote>
+            <figcaption>
+              <span class="avatar" style="--bg: var(--peach)">V</span>
+              <span><strong>Valentina R.</strong><small>Barrio El Peñón</small></span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“La base aguanta todo el día con el calor de Cali y no me tapa los poros. Y saber que el frasco se recarga me hace sentir que compro mejor.”</blockquote>
+            <figcaption>
+              <span class="avatar" style="--bg: var(--lavender)">C</span>
+              <span><strong>Camila O.</strong><small>Ciudad Jardín</small></span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial reveal">
+            <div class="stars" aria-label="5 de 5 estrellas">★★★★★</div>
+            <blockquote>“Tengo piel sensible y con Lume por fin no tuve reacciones. Además la atención es súper cálida, como hablar con una amiga.”</blockquote>
+            <figcaption>
+              <span class="avatar" style="--bg: var(--blush)">M</span>
+              <span><strong>María José L.</strong><small>Barrio Granada</small></span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         8. PREGUNTAS FRECUENTES (acordeón)
+         ========================================================= -->
+    <section class="section section--tint" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head reveal">
+          <p class="eyebrow">Preguntas frecuentes</p>
+          <h2 class="section__title">Resolvemos tus dudas</h2>
+        </div>
+
+        <div class="accordion">
+          <div class="accordion__item reveal">
+            <button class="accordion__btn" aria-expanded="false">
+              ¿Hacen envíos? ¿Cuánto tardan?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>Sí. En Cali entregamos en 24 a 48 horas en bicicleta o moto eléctrica, y el envío es gratis en compras desde $120.000. Al resto de Colombia enviamos en 3 a 5 días hábiles con empaque compostable.</p>
+            </div>
+          </div>
+          <div class="accordion__item reveal">
+            <button class="accordion__btn" aria-expanded="false">
+              ¿Qué ingredientes usan?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>Usamos aceites vegetales (jojoba, almendras, coco), mantecas de karité y cacao, ceras vegetales, minerales y pigmentos de origen natural. No usamos parabenos, siliconas, talco, fragancias sintéticas ni microplásticos. La lista completa está en cada empaque.</p>
+            </div>
+          </div>
+          <div class="accordion__item reveal">
+            <button class="accordion__btn" aria-expanded="false">
+              ¿Sirven para todo tipo de piel?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>Nuestras fórmulas son suaves y aptas para piel grasa, mixta, seca y sensible. Si tienes alguna condición específica, te recomendamos hacer una prueba en la muñeca o pedirnos asesoría en tienda o por WhatsApp.</p>
+            </div>
+          </div>
+          <div class="accordion__item reveal">
+            <button class="accordion__btn" aria-expanded="false">
+              ¿Cómo agendo mi sesión Enséñame?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>Escríbenos por WhatsApp o en el formulario de contacto indicando el día y la hora que prefieres. La sesión es gratuita con la compra de cualquier producto y dura unos 45 minutos en nuestra tienda.</p>
+            </div>
+          </div>
+          <div class="accordion__item reveal">
+            <button class="accordion__btn" aria-expanded="false">
+              ¿Puedo hacer devoluciones o cambios?
+              <span class="accordion__icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion__panel">
+              <p>Claro. Tienes 15 días para cambiar un producto sin abrir. Si un tono no te funcionó tras tu sesión Enséñame, te ayudamos a cambiarlo por otro de igual valor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         9. CONTACTO
+         ========================================================= -->
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__info reveal">
+            <p class="eyebrow">Contacto</p>
+            <h2 class="section__title">Hablemos, <em>con calma y cariño</em></h2>
+            <p class="section__lead">Escríbenos para pedidos, dudas o para agendar tu Enséñame. Te respondemos en menos de 24 horas.</p>
+
+            <ul class="contact__list">
+              <li>
+                <span class="contact__icon" aria-hidden="true">📍</span>
+                <span><strong>Tienda Lume</strong><br>Calle 3 # 4-21, Barrio San Antonio, Cali</span>
+              </li>
+              <li>
+                <span class="contact__icon" aria-hidden="true">🕙</span>
+                <span>Lunes a sábado · 10:00 a. m. – 7:00 p. m.</span>
+              </li>
+              <li>
+                <span class="contact__icon" aria-hidden="true">✉️</span>
+                <span>hola@lume.com.co</span>
+              </li>
+            </ul>
+
+            <div class="contact__actions">
+              <a href="https://wa.me/573001234567" class="btn btn--whatsapp" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+                Escríbenos por WhatsApp
+              </a>
+              <div class="socials">
+                <a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram de Lume">
+                  <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" class="fill"/></svg>
+                </a>
+                <a href="https://tiktok.com/" target="_blank" rel="noopener" aria-label="TikTok de Lume">
+                  <svg viewBox="0 0 24 24"><path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c.5 2.8 2.3 4.5 5 4.8"/></svg>
+                </a>
+              </div>
+            </div>
+
+            <!-- Ubicación en Cali: abre Google Maps (cambia la dirección del enlace si cambia la tienda) -->
+            <a class="map" href="https://www.google.com/maps/search/?api=1&query=Barrio+San+Antonio,+Cali,+Valle+del+Cauca" target="_blank" rel="noopener">
+              <span class="map__pin" aria-hidden="true">📍</span>
+              <span class="map__text">
+                <strong>Barrio San Antonio, Cali</strong>
+                <small>Ver ubicación en Google Maps →</small>
+              </span>
+            </a>
+          </div>
+
+          <!-- Formulario: por ahora muestra un mensaje de éxito en pantalla.
+               Para recibir correos reales, conéctalo a un servicio como Formspree
+               (cambia action="" por la URL que te den y method="POST"). -->
+          <form class="form reveal" id="contactForm" novalidate>
+            <h3 class="form__title">Envíanos un mensaje</h3>
+
+            <div class="form__field">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" name="nombre" placeholder="¿Cómo te llamas?" required>
+              <small class="form__error">Por favor escribe tu nombre.</small>
+            </div>
+
+            <div class="form__field">
+              <label for="correo">Correo electrónico</label>
+              <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+              <small class="form__error">Escribe un correo válido.</small>
+            </div>
+
+            <div class="form__field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos en qué te podemos ayudar" required></textarea>
+              <small class="form__error">Cuéntanos un poquito más.</small>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--block">Enviar mensaje</button>
+            <p class="form__success" id="formSuccess" role="status" hidden>
+              ¡Gracias! 🌸 Recibimos tu mensaje y te responderemos muy pronto.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       10. FOOTER
+       ========================================================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo logo--footer">Lume<span class="logo__dot">.</span></a>
+        <p>Maquillaje ecológico hecho con amor en Cali, Colombia.</p>
+      </div>
+
+      <div>
+        <h4>Enlaces rápidos</h4>
+        <ul class="footer__links">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#ensename">Experiencia Enséñame</a></li>
+          <li><a href="#compromiso">Compromiso ecológico</a></li>
+          <li><a href="#faq">Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Síguenos</h4>
+        <ul class="footer__links">
+          <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram · @lume.co</a></li>
+          <li><a href="https://tiktok.com/" target="_blank" rel="noopener">TikTok · @lume.co</a></li>
+          <li><a href="https://wa.me/573001234567" target="_blank" rel="noopener">WhatsApp · 300 123 4567</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Lume · Belleza consciente desde Cali 🌿</p>
+    </div>
+  </footer>
+
+  <!-- Botón flotante de WhatsApp (cambia el número 573001234567 por el real) -->
+  <a href="https://wa.me/573001234567" class="wa-float" target="_blank" rel="noopener" aria-label="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.4.1-.7.3-.2.3-.9.9-.9 2.2s1 2.5 1.1 2.7c.1.2 1.9 2.9 4.6 4 1.7.7 2.4.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.1-1.2l-.5-.3Z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
